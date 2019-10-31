@@ -1,0 +1,110 @@
+/* IMAGES */
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	background-color: white;
+}
+
+body {
+	font-family: 'Space Mono', monospace;
+	font-size: 12px;
+	font-weight: 400;	
+	margin: 0;
+	padding: 0.5em;
+	color: white;
+	background-color: slateblue;
+	min-height: 100vh;
+	line-height: 1.2;
+	background-image: "img/23.jpg"
+	background-size: cover;
+	background-position: center;
+}
+
+
+
+header {
+	padding: 0.5em;
+
+
+}
+
+header img {
+	width: 100%;
+	height: 50%;
+	filter: grayscale(1);
+
+	
+
+}
+
+header img:hover{
+	filter: grayscale(0);
+	mix-blend-mode: unset;
+
+}
+
+footer {
+	padding: 0.5em;
+	text-align: right;
+}
+
+figure {
+	margin: 0;
+	padding: 0.5em;
+	width: 25%;
+}
+
+h1 {
+	position: absolute;
+	top: 0.5em;
+    left: 0.5em;
+    text-align: center;
+    font-size: 6em;
+    z-index: 0;
+    mix-blend-mode: unset;
+    color: slateblue;
+    margin: 3em;
+    padding: 0;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 1em;
+}
+    
+
+img {
+	filter: grayscale(1);
+	height: auto;
+	mix-blend-mode;
+	border: 3px solid darkblue;
+	max-width: 100%;
+	transform: scale(1);
+	position: relative;
+	transition: all 1s linear 0.3s;
+	transform: rotate(90deg);
+
+
+
+}
+
+img:hover {
+	filter: grayscale(0);
+	mix-blend-mode: unset;
+	border-color: transparent;
+	z-index: 1;
+	color: transparent;
+	
+
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+p {
+	font-size: 4em;
+}
